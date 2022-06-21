@@ -1,0 +1,240 @@
+body{
+width: 1920px;    
+background: #FFFFFF;
+font-family: 'Montserrat', sans-serif;
+color: #0C122D;
+}
+.fone{
+    width: 1920px;
+    height: 1050px;
+    background: #F7FDFB;
+}
+.conteiner{
+    margin-left: 360px;
+}
+.header{
+    width: 1920px;
+        background: #F7FDFB;
+}
+.header-item{
+    display: flex;
+    padding-top: 24px;
+}
+.logo{
+    width: 161px;
+    height: 40px;
+    background: #C4C4C4;
+}
+.header-title{
+    display: flex;
+    list-style: none;
+    width: 46px;
+    height: 30px;
+    margin-left: 368px;
+    z-index: 99999;
+}
+.header-nav{
+    padding-right: 45px;
+}
+.header-nav a{
+    text-decoration: none;
+    color: #0C122D;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.header-nav:active{
+    display: block;
+    width: 74px;
+    height: 30px;
+    background: #1B5FC1;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    padding: 9px 24px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.section1{
+    position: relative;
+    bottom: 0;
+}
+.section1-title{
+    position: absolute;
+    top: 304px;
+    display: block;
+    width: 555px;
+    height: 430px;
+}
+.section1-N95{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    color: #FFB800;
+}
+.section1-h1{
+    display: flex;
+    width: 432px;
+    height: 134px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 82px;
+}
+.section1-p{
+    width: 500px;
+    height: 96px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+.section1-button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.section1-button_b{
+    padding: 8px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-right: 20px;
+    border: 1px solid #FFB800;
+    border-radius: 8px;
+    color: #FFB800;
+}
+.section1-button_b:active{
+    background: #1B5FC1;
+    box-shadow: 0px 10px 15px rgba(27, 95, 193, 0.19);
+    color: #FFFFFF;
+}
+.section1-fon{
+    position: absolute;
+    left: 630px;
+    top: 0px;
+    background: url(./image/img.png) no-repeat;
+    width: 927px;
+    height: 891px;
+    border-radius: 0px 0px 0px 150px;
+}
+.section1-img{
+    width: 496px;
+    height: 744px;
+    padding-left: 40px;
+    padding-top: 147px;
+    border-radius: 16px 16px 16px 0px;
+}
+.section2{
+    background: #F7FDFB;
+    height: 300px;
+}
+.section2-advantage{
+    width: 1141px;
+    height: 179px;
+    display: flex;
+}
+.section2-advantage_title{
+    padding-right: 31px;
+}
+.advantage-img{
+    width: 40px;
+    height: 40px;
+    float: left;
+    padding-right: 20px;
+}
+.section2-advantage_h5{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+.section2-advantage_p{
+    padding-left: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #575C74;
+}
+.section3-item{
+    width: 1140px;
+    height: 616px;
+}
+.section3-img{
+    float: left;
+    padding-right: 47px;
+}
+.section3-h3{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+}
+.section3-p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #575C74;
+}
+.section-svg1{
+    position: absolute;
+    top: 1150px;
+    z-index: -20;
+}
+.section-svg2{
+    position: absolute;
+    top: 2200px;
+    left: 1000px;
+    z-index: -20;
+
+}
+.section4-item{
+    width: 1140px;
+    height: 620px;
+    margin-top: 48px;
+}
+.section4-img{
+    float: right;
+    padding-left: 47px;
+}
+.section4-h3{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+}
+.section4-p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #575C74;
+}
+.section5{
+    position: relative;
+    width: 1140px;
+    height: 616px;
+    margin-top: 80px;
+}
+.section5-info{
+    position: absolute;
+    
+}
